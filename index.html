@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>météo</title>
+	<!-- font -->
+	 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <!-- lien css et bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- ville et date dans le meme container -->
+	<h1>METEO DU JOUR</h1>
+	<div class="container">
+		<div id="villeEtDate">
+      <!-- création du boutton et de la validadion-->
+                <div class="form-group">
+                    <input type="text" name="ville" id="ville" value="Pamiers">
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-light" id="valider">Valider</button>
+                </div>
+            
+            <p id="date"></p>
+        </div>
+      <!--   toutes les données sur la meteo -->
+        <div id="divInformations">
+            <div id="divTemperature">
+                <span id="temperature">0°</span>
+            </div>
+            <div id="informations">
+                <p>tempMax:<span id="TempMax"></span>°</p>
+                <p>tempMin:<span id="tempMin"></span>°</p>
+                <p>presAtmo:<span id="atmospherique"></span></p>
+                <p>vitesseVent:<span id="vitesseduvent"></span></p>
+                <p>humidite:<span id="Humidite"></span>%</p>
+            </div>
+        </div>
+        <!-- position de la carte  -->
+        <div id="carteEtPosition">
+            <div id="position">
+                <p>Longitude :<span id="longitude"></span></p>
+                <p>Latitude :<span id="latitude"></span></p>
+            </div>
+            <div id="map">
+            </div>
+        </div>
+		
+	</div>
+	<!-- lien jquery et moments  -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
