@@ -1,0 +1,114 @@
+h1{
+	color: red;
+	center: auto;
+}
+
+
+body{
+	background-color: #00796B;
+	color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+.container {
+    margin: auto;
+    width: 70%;
+}
+
+.btn-light {
+    border-radius: 20px;
+    color: #00796B;
+}
+
+#date {
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+#villeEtDate {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#ville {
+    background-color: #00796B;
+    border: none;
+    border-bottom: white solid 1px;
+    color: white;
+    width: 30%;
+}
+
+
+#divInformations {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#temperature {
+    font-size: 200px;
+    margin-right: 80px;
+}
+
+#tempMax {
+    margin-top: 50px;
+}
+
+#longitude {
+    margin-right: 100px;
+}
+
+#map {
+	height: 600px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    #ville {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #position {
+        text-align: center;
+    }
+    #divInformations {
+        display: block;
+        margin-bottom: 40px;
+    }
+    #divTemperature {
+        text-align: center;
+    }
+    #temperature {
+        margin: 0;
+    }
+    #informations {
+        text-align: center;
+    }
+    #tempMax {
+        margin-top: 0;
+    }
+    #map {
+    	height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    #longitude {
+        margin-right: 20px;
+    }
+    #map {
+    	height: 200px;
+    }
+    #temperature {
+        font-size: 150px;
+    }
+}
+
+
