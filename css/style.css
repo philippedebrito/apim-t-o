@@ -22,6 +22,7 @@ body{
     font-size: 25px;
     margin-bottom: 30px;
     margin-top: 40px;
+    opacity: 0.4;
 }
 /* placer de la date */
 #villeEtDate {
@@ -64,48 +65,3 @@ body{
     width: 100%;
 }
 
-/* @media (max-width: 1024px) {
-    #ville {
-        width: 60%;
-    }
-}
-
-@media (max-width: 768px) {
-    #position {
-        text-align: center;
-    }
-    #divInformations {
-        display: block;
-        margin-bottom: 40px;
-    }
-    #divTemperature {
-        text-align: center;
-    }
-    #temperature {
-        margin: 0;
-    }
-    #informations {
-        text-align: center;
-    }
-    #tempMax {
-        margin-top: 0;
-    }
-    #map {
-        height: 400px;
-    }
-}
-
-@media (max-width: 480px) {
-    #longitude {
-        margin-right: 20px;
-    }
-    #map {
-        height: 200px;
-    }
-    #temperature {
-        font-size: 150px;
-    }
-}
-
-
- */
