@@ -17,7 +17,7 @@ function meteo(ville) {
             $("#tempMin").text(data.main.temp_min);
             $("#atmospherique").text(data.main.pressure + "hpa");
             $("#Humidite").text(data.main.humidity);
-            $("#vitesseduvent").text(data.wind.speed);
+            $("#vitesseduvent").text(data.wind.speed+ "km/h");
             $("#longitude").text(data.coord.lon);
             $("#latitude").text(data.coord.lat);
             $("#map").html("<iframe  src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCzz2744qgwzVxQHsY6Krfy6nlHzi6r8-4&q="+ville+"&zoom=12&maptype=roadmap' width='100%' height='100%' frameborder='0'></iframe>");
